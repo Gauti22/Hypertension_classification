@@ -1,0 +1,32 @@
+schema: '2.0'
+stages:
+  data_ingestion:
+    cmd: python3 /Users/gautammehta/Desktop/smal_project/src/raw/raw.py
+    deps:
+    - path: src/raw/raw.py
+      hash: md5
+      md5: 24492305ddf0c3fa0046ba8ec384ae23
+      size: 932
+    outs:
+    - path: data/processed
+      hash: md5
+      md5: abfb8329c9fb8f5f899b3fd0adcee36b.dir
+      size: 120352
+      nfiles: 4
+  EDA:
+    cmd: python3 /Users/gautammehta/Desktop/smal_project/src/raw/feature.py
+    deps:
+    - path: src/raw/feature.py
+      hash: md5
+      md5: d9f50b3b4d102b02748756ba5ac0d6c6
+      size: 1368
+    - path: src/raw/raw.py
+      hash: md5
+      md5: 24492305ddf0c3fa0046ba8ec384ae23
+      size: 932
+    outs:
+    - path: data/EDA
+      hash: md5
+      md5: abe7848ade2bb8126e1cab895cd6fc98.dir
+      size: 315292
+      nfiles: 2

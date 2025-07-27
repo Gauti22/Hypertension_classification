@@ -1,0 +1,6 @@
+[core]
+    remote = data_storage
+['remote "data_store"']
+    url = /Users/gautammehta/Desktop/data_store
+['remote "data_storage"']
+    url = /Users/gautammehta/Desktop/smal_project

@@ -1,0 +1,14 @@
+stages:
+  data_ingestion:
+    cmd: python3 /Users/gautammehta/Desktop/smal_project/src/raw/raw.py
+    deps:
+    - src/raw/raw.py
+    outs:
+    - data/processed
+  EDA:
+    cmd: python3 /Users/gautammehta/Desktop/smal_project/src/raw/feature.py
+    deps:
+    - src/raw/feature.py
+    - src/raw/raw.py
+    outs:
+    - data/EDA
