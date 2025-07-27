@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/a505bda10659465e98f86005ae1698b6/artifacts
+end_time: 1753635695761
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: a505bda10659465e98f86005ae1698b6
+run_name: upset-panda-627
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753635695702
+status: 4
+tags: []
+user_id: gautammehta

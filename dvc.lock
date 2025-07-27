@@ -18,8 +18,8 @@ stages:
     deps:
     - path: src/raw/feature.py
       hash: md5
-      md5: d9f50b3b4d102b02748756ba5ac0d6c6
-      size: 1368
+      md5: e933c230f00abfc45459a8ae79d8dddb
+      size: 1607
     - path: src/raw/raw.py
       hash: md5
       md5: 24492305ddf0c3fa0046ba8ec384ae23
@@ -27,6 +27,24 @@ stages:
     outs:
     - path: data/EDA
       hash: md5
-      md5: abe7848ade2bb8126e1cab895cd6fc98.dir
-      size: 315292
-      nfiles: 2
+      md5: 313b697a0c9b6bb528a1cc76eb621e87.dir
+      size: 393692
+      nfiles: 4
+  model_building:
+    cmd: python3 
+      /Users/gautammehta/Desktop/smal_project/src/model_building/model_building.py
+    deps:
+    - path: src/model_building/model_building.py
+      hash: md5
+      md5: 4f1a7c40cd1c5f14af16eaa80b711145
+      size: 2504
+    - path: src/raw/feature.py
+      hash: md5
+      md5: e933c230f00abfc45459a8ae79d8dddb
+      size: 1607
+    outs:
+    - path: reports/model
+      hash: md5
+      md5: ad96ee7d67f4c019cdde8ec19a957c68.dir
+      size: 247
+      nfiles: 1

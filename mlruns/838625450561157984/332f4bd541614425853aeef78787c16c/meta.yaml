@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/332f4bd541614425853aeef78787c16c/artifacts
+end_time: 1753635603433
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: 332f4bd541614425853aeef78787c16c
+run_name: gregarious-sow-738
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753635603234
+status: 4
+tags: []
+user_id: gautammehta

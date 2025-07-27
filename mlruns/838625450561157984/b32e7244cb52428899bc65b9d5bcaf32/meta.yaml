@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/b32e7244cb52428899bc65b9d5bcaf32/artifacts
+end_time: 1753635897954
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: b32e7244cb52428899bc65b9d5bcaf32
+run_name: youthful-asp-727
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753635894518
+status: 3
+tags: []
+user_id: gautammehta

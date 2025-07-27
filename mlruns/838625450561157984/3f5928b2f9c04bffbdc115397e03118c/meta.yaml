@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/3f5928b2f9c04bffbdc115397e03118c/artifacts
+end_time: 1753635621161
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: 3f5928b2f9c04bffbdc115397e03118c
+run_name: colorful-slug-504
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753635621118
+status: 4
+tags: []
+user_id: gautammehta

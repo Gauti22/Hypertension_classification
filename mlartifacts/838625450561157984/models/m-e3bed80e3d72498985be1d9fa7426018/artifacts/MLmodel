@@ -1,0 +1,35 @@
+artifact_path: mlflow-artifacts:/838625450561157984/models/m-e3bed80e3d72498985be1d9fa7426018/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.13.5
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.7.0
+is_signature_from_type_hint: false
+mlflow_version: 3.1.4
+model_id: m-e3bed80e3d72498985be1d9fa7426018
+model_size_bytes: 1017
+model_uuid: m-e3bed80e3d72498985be1d9fa7426018
+prompts: null
+run_id: 08bb63e5ee24442d8ece081549a4742b
+signature:
+  inputs: '[{"type": "double", "name": "Age", "required": true}, {"type": "double",
+    "name": "Salt_Intake", "required": true}, {"type": "double", "name": "Stress_Score",
+    "required": true}, {"type": "double", "name": "BP_History", "required": true},
+    {"type": "double", "name": "Sleep_Duration", "required": true}, {"type": "double",
+    "name": "BMI", "required": true}, {"type": "double", "name": "Medication", "required":
+    true}, {"type": "double", "name": "Family_History", "required": true}, {"type":
+    "double", "name": "Exercise_Level", "required": true}, {"type": "double", "name":
+    "Smoking_Status", "required": true}]'
+  outputs: '[{"type": "long", "name": "y", "required": true}]'
+  params: null
+type_hint_from_example: false
+utc_time_created: '2025-07-27 18:51:06.471360'

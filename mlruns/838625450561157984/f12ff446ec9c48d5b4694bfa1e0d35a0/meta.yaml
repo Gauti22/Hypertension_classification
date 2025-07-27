@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/f12ff446ec9c48d5b4694bfa1e0d35a0/artifacts
+end_time: 1753642482729
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: f12ff446ec9c48d5b4694bfa1e0d35a0
+run_name: unleashed-ox-761
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753642480523
+status: 3
+tags: []
+user_id: gautammehta

@@ -1,0 +1,6 @@
+artifact_location: mlflow-artifacts:/561346479403432462
+creation_time: 1753636883747
+experiment_id: '561346479403432462'
+last_update_time: 1753636883747
+lifecycle_stage: active
+name: K_nearest_neighbour

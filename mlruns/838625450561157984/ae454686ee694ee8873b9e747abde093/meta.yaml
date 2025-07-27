@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/ae454686ee694ee8873b9e747abde093/artifacts
+end_time: 1753635644915
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: ae454686ee694ee8873b9e747abde093
+run_name: omniscient-mouse-750
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753635644850
+status: 4
+tags: []
+user_id: gautammehta

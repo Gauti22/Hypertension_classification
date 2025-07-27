@@ -35,14 +35,19 @@ def scaling(data):
     return(finl)
 
 
-def file_save(finl):
+def file_save(finl,t='train'):
     path=os.path.join('/Users/gautammehta/Desktop/smal_project/data','EDA')
     os.makedirs(path,exist_ok=True)
-    finl.iloc[:,:10].to_csv(os.path.join(path,'X_EDA'),index=False)
-    finl['y'].to_csv(os.path.join(path,'y_EDA'),index=False)
+    finl.iloc[:,:10].to_csv(os.path.join(path,f'X_EDA{t}'),index=False)
+    finl['y'].to_csv(os.path.join(path,f'y_EDA{t}'),index=False)
 
 
 if __name__=='__main__':
+    df=data_read('/Users/gautammehta/Desktop/smal_project/data/processed/X_test_pro','/Users/gautammehta/Desktop/smal_project/data/processed/y_test_pro')
+    df=encoding(df)
+    df=scaling(df)
+    file_save(df,t='test')
+
     df=data_read()
     df=encoding(df)
     df=scaling(df)

@@ -12,3 +12,11 @@ stages:
     - src/raw/raw.py
     outs:
     - data/EDA
+
+  model_building:
+    cmd: python3 /Users/gautammehta/Desktop/smal_project/src/model_building/model_building.py
+    deps:
+    - src/model_building/model_building.py
+    - src/raw/feature.py
+    outs:
+    - /Users/gautammehta/Desktop/smal_project/reports/model  

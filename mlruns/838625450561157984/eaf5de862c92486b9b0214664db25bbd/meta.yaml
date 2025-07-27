@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/eaf5de862c92486b9b0214664db25bbd/artifacts
+end_time: 1753636003119
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: eaf5de862c92486b9b0214664db25bbd
+run_name: worried-croc-557
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753636000416
+status: 3
+tags: []
+user_id: gautammehta

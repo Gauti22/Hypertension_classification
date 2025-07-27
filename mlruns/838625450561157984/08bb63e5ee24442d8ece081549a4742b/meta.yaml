@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/838625450561157984/08bb63e5ee24442d8ece081549a4742b/artifacts
+end_time: 1753642268518
+entry_point_name: ''
+experiment_id: '838625450561157984'
+lifecycle_stage: active
+run_id: 08bb63e5ee24442d8ece081549a4742b
+run_name: respected-frog-427
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753642266220
+status: 3
+tags: []
+user_id: gautammehta
