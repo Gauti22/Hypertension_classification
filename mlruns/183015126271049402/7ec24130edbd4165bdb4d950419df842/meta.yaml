@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/7ec24130edbd4165bdb4d950419df842/artifacts
+end_time: 1753655312159
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 7ec24130edbd4165bdb4d950419df842
+run_name: glamorous-goose-626
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753655310044
+status: 3
+tags: []
+user_id: gautammehta

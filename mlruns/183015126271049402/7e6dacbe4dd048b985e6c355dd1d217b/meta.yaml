@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/7e6dacbe4dd048b985e6c355dd1d217b/artifacts
+end_time: 1753655654541
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 7e6dacbe4dd048b985e6c355dd1d217b
+run_name: blushing-goat-946
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753655652291
+status: 3
+tags: []
+user_id: gautammehta

@@ -1,0 +1,10 @@
+artifact_location: mlflow-artifacts:/183015126271049402/models/m-eb99d45e4e1f408d976957415dcc9729/artifacts
+creation_timestamp: 1753643351183
+experiment_id: '183015126271049402'
+last_updated_timestamp: 1753643353254
+model_id: m-eb99d45e4e1f408d976957415dcc9729
+model_type: ''
+name: K_nearest_neighbour
+source_run_id: 036faf323458499aa983fb207a714c7d
+status: 2
+status_message: null

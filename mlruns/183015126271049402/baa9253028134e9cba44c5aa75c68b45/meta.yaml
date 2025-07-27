@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/baa9253028134e9cba44c5aa75c68b45/artifacts
+end_time: 1753655268330
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: baa9253028134e9cba44c5aa75c68b45
+run_name: handsome-hound-984
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753655266008
+status: 3
+tags: []
+user_id: gautammehta

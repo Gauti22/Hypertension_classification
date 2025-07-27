@@ -15,34 +15,36 @@ import mlflow.sklearn
 from mlflow.models.signature import infer_signature
 import yaml
 import json
-
+import joblib
 
 mlflow.set_tracking_uri('http://127.0.0.1:5000')
-mlflow.set_experiment('Logistic_regression')
+mlflow.set_experiment('KNN')
 
 def train_data_X():
-    X=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/X_EDAtrain')
+    X=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/X_EDA_train')
     return(X)
 
 def train_data_y():
-    y=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/y_EDAtrain')
+    y=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/y_EDA_train')
     return(y)
 
 def test_data_X():
-    X_test=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/X_EDAtest')
+    X_test=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/X_EDA_test')
     return(X_test)
 
 def test_data_y():
-    y_test=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/y_EDAtest')
+    y_test=pd.read_csv('/Users/gautammehta/Desktop/smal_project/data/EDA/y_EDA_test')
     return(y_test)
 
 def model_build(X,y,X_test,y_test):
+
     with mlflow.start_run():
         signature = infer_signature(X_test, y_test)
-        lr=LogisticRegression()
-        lr.fit(X,y)
-        y_pred=lr.predict(X_test)
-        cm=confusion_matrix(y_test,y_pred)
+        Kn=KNeighborsClassifier(n_neighbors=5)
+        Kn.fit(X,y)
+        y_pred=Kn.predict(X_test)
+        joblib.dump(Kn, 'model/final_model.pkl')
+        cm =confusion_matrix(y_test,y_pred)
         accuracy=accuracy_score(y_test,y_pred)
         precision=precision_score(y_test,y_pred)
         recall=recall_score(y_test,y_pred)
@@ -50,11 +52,11 @@ def model_build(X,y,X_test,y_test):
         mlflow.log_metric('accuracy',accuracy)
         mlflow.log_metric('precision',precision)
         mlflow.log_metric('recall',recall)
-        mlflow.sklearn.log_model(lr, "logistic_model",signature=signature)
+        mlflow.sklearn.log_model(Kn, "K_nearest_neighbour",signature=signature)
 
 
         mlflow.set_tag('author','gautam')
-        mlflow.set_tag('model_type','Logistic_reg')
+        mlflow.set_tag('model_type','K_nearest_neighbour')
 
         metrics_dict = {
         "confusion_matrix": cm.tolist(),  # Convert NumPy array to list
@@ -69,6 +71,7 @@ def model_build(X,y,X_test,y_test):
         os.makedirs(path,exist_ok=True)
         with open(os.path.join(path, 'metrics.json'), 'w') as f:
             f.write(metrics_json)
+        
 
 if __name__=='__main__':
     X=train_data_X()
@@ -77,9 +80,3 @@ if __name__=='__main__':
     y_test=test_data_y()
     model_build(X,y,X_test,y_test)
 
-
-
-
-
-
-# 

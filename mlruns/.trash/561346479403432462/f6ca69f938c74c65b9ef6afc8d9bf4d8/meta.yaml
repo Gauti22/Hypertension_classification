@@ -1,0 +1,15 @@
+artifact_uri: mlflow-artifacts:/561346479403432462/f6ca69f938c74c65b9ef6afc8d9bf4d8/artifacts
+deleted_time: 1753643446878
+end_time: 1753636886810
+entry_point_name: ''
+experiment_id: '561346479403432462'
+lifecycle_stage: deleted
+run_id: f6ca69f938c74c65b9ef6afc8d9bf4d8
+run_name: smiling-koi-172
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753636883765
+status: 3
+tags: []
+user_id: gautammehta

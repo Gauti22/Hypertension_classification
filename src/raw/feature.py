@@ -6,6 +6,7 @@ import os
 from sklearn.preprocessing import OrdinalEncoder
 from sklearn.preprocessing import StandardScaler
 from sklearn.preprocessing import LabelEncoder
+import joblib
 
 def data_read(path_x='/Users/gautammehta/Desktop/smal_project/data/processed/X_train_pro',path_y='/Users/gautammehta/Desktop/smal_project/data/processed/y_train_pro'):
     X=pd.read_csv(path_x)
@@ -32,14 +33,15 @@ def scaling(data):
     finl=dt.fit_transform(X)
     finl=pd.DataFrame(finl,columns=X.columns)
     finl['y']=data['y']
+    joblib.dump(dt,'transformer/scaler.pkl')
     return(finl)
 
 
 def file_save(finl,t='train'):
     path=os.path.join('/Users/gautammehta/Desktop/smal_project/data','EDA')
     os.makedirs(path,exist_ok=True)
-    finl.iloc[:,:10].to_csv(os.path.join(path,f'X_EDA{t}'),index=False)
-    finl['y'].to_csv(os.path.join(path,f'y_EDA{t}'),index=False)
+    finl.iloc[:,:10].to_csv(os.path.join(path,f'X_EDA_{t}'),index=False)
+    finl['y'].to_csv(os.path.join(path,f'y_EDA_{t}'),index=False)
 
 
 if __name__=='__main__':

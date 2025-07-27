@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/208d916d903f4f868999a6d5f1cca341/artifacts
+end_time: 1753655695049
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 208d916d903f4f868999a6d5f1cca341
+run_name: lyrical-mole-86
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753655692956
+status: 3
+tags: []
+user_id: gautammehta

@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/8983c7f9a23b40b4926878d93e4efd73/artifacts
+end_time: 1753643386223
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 8983c7f9a23b40b4926878d93e4efd73
+run_name: marvelous-newt-111
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753643384166
+status: 3
+tags: []
+user_id: gautammehta

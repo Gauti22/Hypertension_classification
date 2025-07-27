@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/3a435204bd70440b91b4e1a3f4a735c3/artifacts
+end_time: 1753643641133
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 3a435204bd70440b91b4e1a3f4a735c3
+run_name: spiffy-hawk-898
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753643638985
+status: 3
+tags: []
+user_id: gautammehta

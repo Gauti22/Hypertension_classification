@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/036faf323458499aa983fb207a714c7d/artifacts
+end_time: 1753643353262
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 036faf323458499aa983fb207a714c7d
+run_name: capricious-colt-769
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753643351042
+status: 3
+tags: []
+user_id: gautammehta

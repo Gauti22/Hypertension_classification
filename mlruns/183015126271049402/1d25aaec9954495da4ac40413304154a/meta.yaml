@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/1d25aaec9954495da4ac40413304154a/artifacts
+end_time: 1753659764757
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: 1d25aaec9954495da4ac40413304154a
+run_name: nebulous-moose-549
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753659762758
+status: 3
+tags: []
+user_id: gautammehta

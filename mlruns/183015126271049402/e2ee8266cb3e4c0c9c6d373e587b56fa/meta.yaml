@@ -1,0 +1,14 @@
+artifact_uri: mlflow-artifacts:/183015126271049402/e2ee8266cb3e4c0c9c6d373e587b56fa/artifacts
+end_time: 1753659283391
+entry_point_name: ''
+experiment_id: '183015126271049402'
+lifecycle_stage: active
+run_id: e2ee8266cb3e4c0c9c6d373e587b56fa
+run_name: blushing-tern-254
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1753659280862
+status: 3
+tags: []
+user_id: gautammehta
